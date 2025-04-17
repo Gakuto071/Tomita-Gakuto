@@ -3,7 +3,15 @@ package sample;
 public class Sample {
 
 	public static void main(String[] args) {
-		System.out.println("Hello, World");
+		byte b;
+		short s;
+		int i;
+		long l;
+		float f;
+		double d;
+		char c;
+		String str;
+		boolean bool;
 
 	}
 
