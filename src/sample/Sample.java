@@ -22,6 +22,16 @@ public class Sample {
 		c = '\u0000';
 		str = null;
 		bool = false;
+		
+		b = 10;
+		s = 100;
+		i = 1000;
+		l = 10000L;
+		f = 9.5f;
+		d = 10.50;
+		c = 'a';
+		str = Hello;
+		bool = true;
 	}
 
 }
