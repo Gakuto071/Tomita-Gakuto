@@ -28,10 +28,21 @@ public class Sample {
 		i = 1000;
 		l = 10000L;
 		f = 9.5f;
-		d = 10.50;
+		d = 10.5;
 		c = 'a';
 		str = "Hello";
 		bool = true;
+		
+		System.out.println(b + s + i + l);
+		System.out.println(b * 2);
+		System.out.println(c + str + bool);
+		System.out.println(b + s + i + l + f + d);
+		System.out.println(b * s * i * l);
+		System.out.println(d / s);
+		System.out.println(b - s);
+		
+		
+		
 	}
 
 }
