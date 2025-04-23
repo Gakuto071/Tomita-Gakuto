@@ -42,6 +42,9 @@ public class Sample {
 		System.out.println(b - s);
 		
 		
+		String num="20";		
+		int num1=23;				
+		System.out.println("ハローJAVA" + (Integer.parseInt(num) + num1));
 		
 	}
 
