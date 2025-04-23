@@ -30,7 +30,7 @@ public class Sample {
 		f = 9.5f;
 		d = 10.50;
 		c = 'a';
-		str = Hello;
+		str = "Hello";
 		bool = true;
 	}
 
