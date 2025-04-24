@@ -67,8 +67,21 @@ public class Sample {
         System.out.println("BMIは" + weight / (heightInMeters * heightInMeters) + "です");
         
         
+        name = "鈴木一郎";
+        age = 24;
+        height = 168.5;
+        weight = 64.2;
+        favoriteFood = "オムライス";
         
-    }
-    }
-
-
+		System.out.println("初めまして" + name + "です");
+        System.out.println("年齢は" + age + "歳です");
+        System.out.println("身長は" + height + "cmです");
+        System.out.println("体重は" + weight + "kgです");
+        System.out.println("好きな食べ物は" + favoriteFood + "です");
+        
+        heightInMeters = height / 100;
+        System.out.println("BMIは" + weight / (heightInMeters * heightInMeters) + "です");
+        
+	 }
+     }
+		
