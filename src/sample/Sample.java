@@ -62,8 +62,11 @@ public class Sample {
         System.out.println("体重は" + weight + "kgです");
         System.out.println("好きな食べ物は" + favoriteFood + "です");
         
+        
         double heightInMeters = height / 100;
         System.out.println("BMIは" + weight / (heightInMeters * heightInMeters) + "です");
+        
+        
         
     }
     }
