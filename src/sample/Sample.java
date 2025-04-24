@@ -13,6 +13,7 @@ public class Sample {
 		String str;
 		boolean bool;
 		
+		
 		b = 0;
 		s = 0;
 		i = 0;
@@ -23,6 +24,7 @@ public class Sample {
 		str = null;
 		bool = false;
 		
+		
 		b = 10;
 		s = 100;
 		i = 1000;
@@ -32,6 +34,7 @@ public class Sample {
 		c = 'a';
 		str = "Hello";
 		bool = true;
+		
 		
 		System.out.println(b + s + i + l);
 		System.out.println(b * 2);
@@ -46,6 +49,7 @@ public class Sample {
 		int num1=23;				
 		System.out.println("ハローJAVA" + (Integer.parseInt(num) + num1));
 		
+		
 		String name = "山田太郎";
 		int age = 18;
 		double height = 170.5;
@@ -57,6 +61,11 @@ public class Sample {
         System.out.println("身長は" + height + "cmです");
         System.out.println("体重は" + weight + "kgです");
         System.out.println("好きな食べ物は" + favoriteFood + "です");
+        
+        double heightInMeters = height / 100;
+        System.out.println("BMIは" + weight / (heightInMeters * heightInMeters) + "です");
+        
     }
     }
-		
+
+
