@@ -99,6 +99,8 @@ public class Sample {
         System.out.println("BMIは" + weight / (heightInMeters1 * heightInMeters1) + "です");
 		
         
+        boolean isOver25 = age >= 25;
+        System.out.println(isOver25); 
 
 	 }
      }
