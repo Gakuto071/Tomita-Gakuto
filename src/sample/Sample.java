@@ -101,6 +101,19 @@ public class Sample {
         
         boolean isOver25 = age >= 25;
         System.out.println(isOver25); 
+        
+        
+        age = 24;
+        height = 168.5;
+        weight = 64.2;
+        
+        String ageStr = String.valueOf(age);
+        String heightStr = String.valueOf(height);
+        String weightStr = String.valueOf(weight);
+
+        String result = ageStr + heightStr + weightStr;
+        System.out.println(result);
+        
 
 	 }
      }
