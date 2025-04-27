@@ -136,6 +136,11 @@ public class Sample {
         System.out.println(ageInt); 
         System.out.println(heightInt);	
 
+        
+        System.out.println(ageInt >= 25 || heightInt >= 160);
+
+
+ 
 		
 	 }
      }
