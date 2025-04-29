@@ -12,9 +12,9 @@ public class Sample {
 		char c;
 		String str;
 		boolean bool;
-		
-		
-		
+
+
+
 		b = 0;
 		s = 0;
 		i = 0;
@@ -24,9 +24,9 @@ public class Sample {
 		c = '\u0000';
 		str = null;
 		bool = false;
-		
-		
-		
+
+
+
 		b = 10;
 		s = 100;
 		i = 1000;
@@ -36,9 +36,9 @@ public class Sample {
 		c = 'a';
 		str = "Hello";
 		bool = true;
-		
-		
-		
+
+
+
 		System.out.println(b + s + i + l);
 		System.out.println(b * 2);
 		System.out.println(c + str + bool);
@@ -46,15 +46,15 @@ public class Sample {
 		System.out.println(b * s * i * l);
 		System.out.println(d / s);
 		System.out.println(b - s);
-		
-		
-		
+
+
+
 		String num="20";		
 		int num1=23;				
 		System.out.println("ハローJAVA" + (Integer.parseInt(num) + num1));
-		
-		
-		
+
+
+
 		String name = "山田太郎";
 		int age = 18;
 		double height = 170.5;
@@ -62,86 +62,86 @@ public class Sample {
 		String favoriteFood = "寿司";
 
 		System.out.println("初めまして" + name + "です");
-        System.out.println("年齢は" + age + "歳です");
-        System.out.println("身長は" + height + "cmです");
-        System.out.println("体重は" + weight + "kgです");
-        System.out.println("好きな食べ物は" + favoriteFood + "です");
-        
-        
-        
-        double heightInMeters = height / 100;
-        System.out.println("BMIは" + weight / (heightInMeters * heightInMeters) + "です");
-        
-        
-        
-        name = "鈴木一郎";
-        age = 24;
-        height = 168.5;
-        weight = 64.2;
-        favoriteFood = "オムライス";
-        
+		System.out.println("年齢は" + age + "歳です");
+		System.out.println("身長は" + height + "cmです");
+		System.out.println("体重は" + weight + "kgです");
+		System.out.println("好きな食べ物は" + favoriteFood + "です");
+
+
+
+		double heightInMeters = height / 100;
+		System.out.println("BMIは" + weight / (heightInMeters * heightInMeters) + "です");
+
+
+
+		name = "鈴木一郎";
+		age = 24;
+		height = 168.5;
+		weight = 64.2;
+		favoriteFood = "オムライス";
+
 		System.out.println("初めまして" + name + "です");
-        System.out.println("年齢は" + age + "歳です");
-        System.out.println("身長は" + height + "cmです");
-        System.out.println("体重は" + weight + "kgです");
-        System.out.println("好きな食べ物は" + favoriteFood + "です");
-        
-        heightInMeters = height / 100;
-        System.out.println("BMIは" + weight / (heightInMeters * heightInMeters) + "です");
-        
-        
-        
-        age += 24;
-        height += 168.5;
-        weight += 64.2;
-        
-        System.out.println("初めまして" + name + "です");
-        System.out.println("年齢は" + age + "歳です");
-        System.out.println("身長は" + height + "cmです");
-        System.out.println("体重は" + weight + "kgです");
-        System.out.println("好きな食べ物は" + favoriteFood + "です");
-        
-        
-        
-        double heightInMeters1 = 0;
-        heightInMeters1 += height / 100;
-        System.out.println("BMIは" + weight / (heightInMeters1 * heightInMeters1) + "です");
-		
-        
-        
-        boolean isOver25 = age >= 25;
-        System.out.println(isOver25); 
-        
-        
-        
-        age = 24;
-        height = 168.5;
-        weight = 64.2;
-        
-        String ageStr = String.valueOf(age);
-        String heightStr = String.valueOf(height);
-        String weightStr = String.valueOf(weight);
+		System.out.println("年齢は" + age + "歳です");
+		System.out.println("身長は" + height + "cmです");
+		System.out.println("体重は" + weight + "kgです");
+		System.out.println("好きな食べ物は" + favoriteFood + "です");
 
-        String result = ageStr + heightStr + weightStr ;
-        System.out.println(result);
-        
-        
-        
-        String result1 = ageStr + heightStr + weightStr ;
-        System.out.println(result1); 
-
-        int ageInt = Integer.parseInt(ageStr);
-        int heightInt = (int) Double.parseDouble(heightStr);
-
-        System.out.println(ageInt); 
-        System.out.println(heightInt);	
-
-        
-        System.out.println(ageInt >= 25 || heightInt >= 160);
+		heightInMeters = height / 100;
+		System.out.println("BMIは" + weight / (heightInMeters * heightInMeters) + "です");
 
 
- 
+
+		age += 24;
+		height += 168.5;
+		weight += 64.2;
+
+		System.out.println("初めまして" + name + "です");
+		System.out.println("年齢は" + age + "歳です");
+		System.out.println("身長は" + height + "cmです");
+		System.out.println("体重は" + weight + "kgです");
+		System.out.println("好きな食べ物は" + favoriteFood + "です");
+
+
+
+		double heightInMeters1 = 0;
+		heightInMeters1 += height / 100;
+		System.out.println("BMIは" + weight / (heightInMeters1 * heightInMeters1) + "です");
+
+
+		age = 24;
+
+		boolean isOver25 = age >= 25;
+		System.out.println(isOver25); 
+
+
+
+		age = 24;
+		height = 168.5;
+		weight = 64.2;
+
+		String ageStr = String.valueOf(age);
+		String heightStr = String.valueOf(height);
+		String weightStr = String.valueOf(weight);
+
+		String result = ageStr + heightStr + weightStr ;
+		System.out.println(result);
+
+
+
+		String result1 = ageStr + heightStr + weightStr ;
+		System.out.println(result1); 
+
+		int ageInt = Integer.parseInt(ageStr);
+		int heightInt = (int) Double.parseDouble(heightStr);
+
+		System.out.println(ageInt); 
+		System.out.println(heightInt);	
+
+
+		System.out.println(ageInt >= 25 || heightInt >= 160);
+
+
+
 		
 	 }
      }
-		
