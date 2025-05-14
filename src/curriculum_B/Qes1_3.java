@@ -11,17 +11,18 @@ public class Qes1_3 {
 		System.out.print("ユーザー名を入力してください: ");
 		String userName = scanner.nextLine();
 
-		if (userName == null || userName.trim().isEmpty()) {
+		if ( (userName.length() <= 0)|| userName.isEmpty()) { 
 			System.out.println("名前を入力してください");
 		} else if (userName.length() > 10) {
 			System.out.println("名前を10文字以内にしてください");
+		} else if (!userName.matches("[a-zA-Z0-9]+")) {
+				System.out.println("半角英数字のみで名前を入力してください");	
 		} else {
 			System.out.println("ユーザー名「" + userName + "」を登録しました");
 		}
-
+		
+		
 		scanner.close();
 	}
 
 }
-
-//Q1-3まで書いて 、4-7は別タブに記載
