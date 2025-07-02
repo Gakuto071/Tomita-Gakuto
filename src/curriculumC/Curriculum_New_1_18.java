@@ -3,7 +3,6 @@ package curriculumC;
 import java.util.Random;
 
 public class Curriculum_New_1_18 {
-
 	// Q1：引数に文字列型と整数型をいれて「Hello JavaSE 11」と出力する
 	public static void printMessage(String message, int version) {
 		System.out.println(message + " " + version);
@@ -78,10 +77,5 @@ public class Curriculum_New_1_18 {
 		int[] randomNumbers = generateRandomNumbers(5); // Q5
 		double avg = calculateAverage(randomNumbers); // Q6
 		boolean isAbove50 = isAverageAbove50(avg); // Q7
-		System.out.println("Q7の戻り値：" + isAbove50);
 	}
 }
-
-
-
-
