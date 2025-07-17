@@ -1,15 +1,15 @@
-package ThemeA; // ThemeAというパッケージに属していることを示す
+package processing; // processingというパッケージに属していることを示す
 
-public class packageA { // クラス名packageA（処理用のクラス）
+public class PackageA { // クラス名packageA（処理用のクラス）
 
 	private String greeting; // あいさつの文言（例：こんにちは）
 	private String country; // 国名（例：日本）
 	private String food; // 食べ物の名前（例：寿司）
 	private String category; // 食べ物のカテゴリ（例：和食）
-	private String currenttime; // 現在の日時
+	private String currentTime; // 現在の日時
 
 	// コンストラクタ（greetingとcountryを初期設定する）
-	public packageA(String gree, String come) {
+	public PackageA(String gree, String come) {
 		this.greeting = gree; // 引数のgreeをフィールドgreetingに代入
 		this.country = come; // 引数のcomeをフィールドcountryに代入
 	}
@@ -36,12 +36,12 @@ public class packageA { // クラス名packageA（処理用のクラス）
 
 	// currenttimeフィールドに現在の日時を設定するメソッド
 	public void setCurrentTime(String time) {
-		this.currenttime = time;
+		this.currentTime = time;
 	}
 
 	// currenttimeフィールドの値を返すメソッド
 	public String getCurrentTime() {
-		return currenttime;
+		return currentTime;
 	}
 
 	// 設定された情報を出力するメソッド（mainから呼び出して使う）

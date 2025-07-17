@@ -1,16 +1,16 @@
-package ThemeB;
+package execution;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 //ThemeAパッケージ内のpackageAクラスをインポート
-import ThemeA.packageA;
+import processing.PackageA;
 
-public class packageB {
+public class PackageB {
 	public static void main(String[] args) {
 
 		// packageAクラスのインスタンスを作成し、あいさつと言語を渡す
-		packageA A = new packageA("こんにちは！", "日本");
+		PackageA A = new PackageA("こんにちは！", "日本");
 		// 食べ物の名前を設定
 		A.setFood("寿司");
 		// カテゴリ（ジャンル）を設定
