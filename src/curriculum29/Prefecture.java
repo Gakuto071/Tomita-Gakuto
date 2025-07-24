@@ -1,5 +1,4 @@
-
-package curriculum29Main;
+package curriculum29;
 
 public class Prefecture {
 	private String name;
@@ -28,6 +27,8 @@ public class Prefecture {
 		System.out.println("都道府県名：" + name);
 		System.out.println("県庁所在地：" + capital);
 		System.out.println("面積：" + area + "km2\n");
+        System.out.println(); 
 	}
 
 }
+
